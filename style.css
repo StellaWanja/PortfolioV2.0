@@ -238,7 +238,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 #skills-div h2{
     margin-top: 10px;
@@ -247,7 +247,7 @@ main{
 /* section-d */
 .section-d{
     max-width: var(--width);
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 .section-d h2{
     text-align: left;
@@ -360,6 +360,7 @@ main{
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-content: center;
+        margin-top: 0;
     }
     #skills-title{
         display: flex;
@@ -373,9 +374,11 @@ main{
     #skills-div h2{
         margin: 0 0 10px 0;
     }
+    .section-d{
+        margin-top: 0;
+    }
     .section-d h2{
         text-align: center;
-        margin-bottom: var(--header-height);
     }
 }
 
