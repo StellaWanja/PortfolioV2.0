@@ -238,7 +238,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 #skills-div h2{
     margin-top: 10px;
@@ -247,7 +247,7 @@ main{
 /* section-d */
 .section-d{
     max-width: var(--width);
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 .section-d h2{
     text-align: left;
