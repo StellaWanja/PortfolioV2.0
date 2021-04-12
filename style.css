@@ -206,7 +206,7 @@ main{
     margin-top: 1rem;
     font-size: 1.25em;
 }
-.contact-btn{
+.contact-btn, .submit-btn{
     background-color: var(--green-color);
     outline: none;
     border: none;
@@ -217,7 +217,7 @@ main{
     cursor: pointer;
     text-transform: capitalize;
 }
-.contact-btn:hover{
+.contact-btn:hover, .submit-btn:hover{
     background-color: var(--dark-green-color);
     transition: 0.3s;
 }
@@ -279,6 +279,36 @@ main{
 .icons a:hover{
     color: var(--green-color);
     transition: 0.5s;
+}
+
+/* form-section */
+.form-section{
+    max-width: var(--width);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin: 3rem;
+}
+
+.form-section h1, .form-section p{
+    text-align: center;
+}
+
+.form-section form{
+    margin-top: 1.2rem;
+}
+
+.form-section input, .form-section textarea{
+    padding: 8px;
+    width: 80vw;
+    border: 2px solid var(--dark-green-color);
+    border-radius: 0.7rem;
+    margin: 0.7rem 0 0.7rem 0;
+}
+
+.form-section input:focus, .form-section textarea:focus{
+    outline: none;
 }
 
 /* footer */

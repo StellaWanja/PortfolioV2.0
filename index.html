@@ -33,7 +33,7 @@
     <div class="left-navbar" id="navbar">
         <nav class="nav">
             <li>
-                <a href="#" class="nav-logo">
+                <a href="index.html" class="nav-logo">
                     <img src="img/logo.png" alt="">
                     <span class="nav-logo-name">StylaDes</span>
                 </a>
@@ -41,35 +41,35 @@
 
             <div class="nav-list">
                 <li>
-                    <a href="#" class="nav-link nav-active">
+                    <a href="#section-a" class="nav-link nav-active">
                         <i class="fas fa-home nav-icon"></i>
                         <span class="nav-name">Home</span>
                     </a>
                 </li>
     
                 <li>
-                    <a href="#" class="nav-link">
+                    <a href="#section-b" class="nav-link">
                         <i class="fas fa-user nav-icon"></i>
                         <span class="nav-name">About</span>
                     </a>
                 </li>
     
                 <li>
-                    <a href="#" class="nav-link">
+                    <a href="#section-c" class="nav-link">
                         <i class="fas fa-tools nav-icon"></i>
                         <span class="nav-name">Skills</span>
                     </a>
                 </li>
     
                 <li>
-                    <a href="#" class="nav-link">
+                    <a href="#section-d" class="nav-link">
                         <i class="fas fa-folder nav-icon"></i>
                         <span class="nav-name">Works</span>
                     </a>
                 </li>
     
                 <li>
-                    <a href="#" class="nav-link">
+                    <a href="#form-section" class="nav-link">
                         <i class="fas fa-envelope nav-icon"></i>
                         <span class="nav-name">Contact</span>
                     </a>
@@ -80,7 +80,7 @@
 
     <main>
 
-        <section class="section-a">
+        <section class="section-a" id="section-a">
             <div id="text-content">
                 <p id="green-text">Hi, my name is</p>
                 <h1>StylaDes | Stella Wanja </h1>
@@ -90,7 +90,7 @@
             </div>
         </section>
 
-        <section class="section-b">
+        <section class="section-b" id="section-b">
             <div id="about-title">
                 <h2>About Me</h2>
             </div>
@@ -103,7 +103,7 @@
             </div>
         </section>
 
-        <section class="section-c">
+        <section class="section-c" id="section-c">
             <div id="skills-title">
                 <h2>Skills</h2>
             </div>
@@ -144,7 +144,7 @@
             </div>
         </section>
 
-        <section class="section-d">
+        <section class="section-d" id="section-d">
             <h2>Projects</h2>
 
             <div class="projects">
@@ -190,6 +190,40 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!--    contact form-->
+        <section class="form-section" id="form-section">
+            <div id="form-text" data-aos="fade-up">
+                <h1>Get In Touch</h1>
+                <p>Have a project in mind?</p>
+                <p>Feel free to send me a message!</p>
+            </div>
+            <form action="" name="contact" method="post" data-netlify="true">
+                <div class="fields" data-aos="fade-right">
+                    <div class="field">
+                        <label for="name">Name:</label><br>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email:</label><br>
+                        <input type="text" name="email" id="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="msg">Message:</label><br>
+                        <textarea name="message" id="msg" rows="7" placeholder="Enter your message" required></textarea>
+                    </div>
+
+                    <!--recaptcha-->
+                    <div class="field">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
         </section>
     </main>
 
