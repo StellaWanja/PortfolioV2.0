@@ -302,8 +302,8 @@ main{
 .form-section input, .form-section textarea{
     padding: 8px;
     width: 80vw;
-    border: 2px solid var(--dark-green-color);
-    border-radius: 0.7rem;
+    border: none;
+    border-bottom: 2px solid var(--dark-green-color);
     margin: 0.7rem 0 0.7rem 0;
 }
 
