@@ -232,6 +232,14 @@ main{
     text-align: justify;
     padding-right: calc(var(--nav-width) - 1rem);
 }
+#about-text a{
+    color: var(--black-color);
+    text-decoration: underline;
+}
+#about-text a:hover{
+    color: var(--light-grey-color);
+    text-decoration: underline;
+}
 
 /* section-c */
 .section-c{
@@ -265,6 +273,17 @@ main{
     width: 350px;
     height: auto;
     padding: 0 1rem 0 1rem;
+}
+.img-gallery p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.img-gallery .blog-link{
+    color: var(--black-color);
+}
+.img-gallery .blog-link:hover{
+    color: var(--light-grey-color);
 }
 .icons{
     display: flex;
