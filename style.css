@@ -280,7 +280,7 @@ main{
     margin-top: 10px;
 }
 .img-gallery .blog-link{
-    color: var(--black-color);
+    color: inherit;
 }
 .img-gallery .blog-link:hover{
     color: var(--light-grey-color);
