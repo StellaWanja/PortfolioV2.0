@@ -279,6 +279,13 @@ main{
     font-weight: bold;
     margin-top: 10px;
 }
+.img-gallery h3{
+    text-align: center;
+    font-weight:bold;
+    margin-top: 10px;
+    color: #000;
+}
+
 .img-gallery .blog-link{
     color: inherit;
 }
