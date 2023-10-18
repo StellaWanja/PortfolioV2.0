@@ -279,11 +279,9 @@ main{
     font-weight: bold;
     margin-top: 10px;
 }
-.img-gallery h3{
-    text-align: center;
-    font-weight:bold;
-    margin-top: 10px;
-    color: #000;
+.img-gallery .project-title{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 .img-gallery .blog-link{
